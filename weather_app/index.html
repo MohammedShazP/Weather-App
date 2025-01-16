@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="images/search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p></p>
+        </div>
+        <div class="weather">
+            <div class="city-detail">
+                <h2 class="city-name"></h2>
+                <div class="date-day">
+                    <h3 class="time">4:00 pm</h3>
+                </div>       
+            </div>
+            
+            <div class="weather-img-des">
+                <img src="images/rain.png" alt="" class="weather-icon">
+                <div class="weather-dec">
+                    <h3 class="weather-name">rainy</h3>
+                    <p class="description">partial cloud</p>
+                </div>     
+            </div>       
+            
+            <div class="weather-percentage">
+                <div class="min-div">
+                    <h2 class="min-per"></h2>
+                    <h3>Minimum Temperature</h3>
+                </div>
+                <div class="exact-per">                
+                    <h1 class="temp">22°c</h1>                
+                </div>
+                <div class="max-div">
+                    <h2 class="max-per"></h2>
+                    <h3>Maximum Temperature</h3>
+                </div>
+                <div class="feels-div">
+                    <h2 class="feels-per">22</h2>
+                    <h3>feels like</h3>
+                </div>
+            </div>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind">15 km</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
